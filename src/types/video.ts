@@ -39,6 +39,7 @@ export type VideoMetadata = Readonly<{
   description?: string;
   artist?: string;
   imageUri?: string;
+  contentId?: string;
 }>;
 
 export type DebugConfig = Readonly<{

@@ -24,6 +24,7 @@ type VideoMetadata = Readonly<{
   subtitle?: string;
   description?: string;
   imageUri?: string;
+  contentId?: string;
 }>;
 
 export type VideoSrc = Readonly<{
